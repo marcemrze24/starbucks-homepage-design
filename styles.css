@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 62.5%;
+    font-family: "SoDo Sans SemiBold";
+    letter-spacing: 1px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.58);
+}
+
+/*NAVBAR*/
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+}
+
+
+/*NAVBAR LEFT*/
+.navbar__left {
+    width: auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1.6rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+.navbar__left svg {
+    width: 51px;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.navbar__left ul {
+    display: flex;
+    align-items: center;
+    padding-top: .3rem;
+}
+.navbar__left ul li {
+    padding-left: 1.3rem;
+}
+
+
+
+/*NAVBAR RIGHT*/
+.navbar__right > * {
+    margin: 10px;
+}
+.navbar__right {
+    width: auto;
+    font-size: .9rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    letter-spacing: 0px;
+    padding-right: 2rem;
+}
+.navbar__right svg {
+    padding-right: .5rem;
+}
+.svg__container {
+    display: flex;
+}
+.navbar__left__btn--white, .navbar__left__btn--black {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 15px;
+}
+.navbar__left__btn--black {
+    background-color: black;
+}
+.navbar__left__btn--white a, .svg__container a, .navbar__left li a {
+    color: black;
+}
+.navbar__left__btn--black a {
+    color: white;
+}
+
+/*IMG MAIN FIX*/
+.img--fix {
+    max-width: 100%;
+    height: auto;
+}
+/*MAIN BLOCKS*/
+.margin {
+    margin: 2rem 0;
+}
+
+/*BOX ONE*/
+.main__box__one {
+    background-color: #1e3932;
+    display: flex;
+    color: white;
+}
+.box__one__left, .box__two__right, .box__three__left, .box__four__right {
+    width: 50%;
+}
+.box__one__right, .box__two__left, .box__three__right, .box__four__left {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+}
+.box__one__title, .box__two__title, .box__three__title, .box__four__title {
+    font-size: 3.2rem;
+    padding: 0 5rem;
+}
+.box__one__text, .box__two__text, .box__three__text, .box__four__text {
+    font-size: 1.5rem;
+    padding: 2.1rem 5.8rem;
+}
+/*BOX BUTTON ALL*/
+.box__one__btn a, .box__two__btn a, .box__three__btn a, .box__four__btn a {
+    display: inline-block;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px 15px;
+    color: white;
+}
+.box__two__btn a {
+    border: 1px solid black;
+    color: black;
+}
+
+
+/*BOX TWO*/
+.main__box__two {
+    display: flex;
+    background-color: #00b388;
+    color: #1e3932;
+}
+
+/*BOX THREE*/
+.main__box__three {
+    display: flex;
+    background-color: #d50032;
+    color: white;
+}
+
+/*BOX FOUR*/
+.main__box__four {
+    display: flex;
+    background-color: #1e3932;
+    color: white;
+}
+
+
+/*ASIDE*/
+.aside__container {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 60%;
+}
+.aside__text {
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+/*MAIN SHADOW*/
+main {
+    padding-bottom: .1rem;
+    box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    clip-path: inset(0px 0px -15px 0px)
+}
+
+
+/*ARTICLE*/
+.column__container {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1rem;
+    padding: 2rem 2rem 2.5rem 2rem;
+    box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 7px -3px rgba(0,0,0,1);
+    clip-path: inset(0px 0px -15px 0px)
+}
+.column__container p {
+    font-size: 1.2rem;
+}
+.col {
+    display: flex;
+    flex-flow: column wrap;
+    width: 20%;
+    height: auto;
+    line-height: 2.5rem;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: .5rem;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+.footer__svgList, .footer__linkList {
+    display: flex;
+    width: auto;
+}
+.footer__svgList li , .footer__linkList li, .rs{
+    padding-left: 1.5rem;
+    line-height: 2.5rem;
+}
+.rs {
+    font-size: .9rem;
+    color: rgba(0,0,0,.58);
+}
